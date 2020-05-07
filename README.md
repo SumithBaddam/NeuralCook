@@ -61,6 +61,13 @@ The image shows a 5-layered application with client, web server, application ser
 
 The functionalities of the application include, classification of an image, predicting the ingredients in the dish's image, fetching similar-looking images, and recommending the dishes given a set of ingredients. The client interacts with the web server by making HTTP get or put requests.
 
+```
+python api.py
+npm run server
+npm run start
+```
+
+
 # Results
 We evaluated the application with 10,000 images from various categories. The food image classification, ingredient embedding, and recommendation retrieval systems are evaluated separately and as a whole for a better understanding of the model performance. We also built REST API for each of the three models so that the application will be open source and consumable to other users.
 # Image classification
